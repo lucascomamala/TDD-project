@@ -1,5 +1,5 @@
 require 'rspec'
 require_relative '../solver'
 
-Rspec.describe Solver do
+RSpec.describe Solver do
 end
