@@ -15,7 +15,7 @@ RSpec.describe Solver do
       end
     end
 
-    
+
     context 'when 5 is given' do
       it 'should return 120' do
         expect(subject.factorial(5)).to eq(120)
@@ -40,6 +40,14 @@ RSpec.describe Solver do
     context 'when "Word" is given' do
       it 'should return "droW"' do
         expect(subject.reverse('Word')).to eq('droW')
+      end
+    end
+  end
+
+  describe '#fizzbuzz' do
+    context 'when n is divisivle by 3' do
+      it 'should return "fizz"' do
+        expect(subject.fizzbuzz(9)).to eq('fizz')
       end
     end
   end
