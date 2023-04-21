@@ -56,5 +56,11 @@ RSpec.describe Solver do
         expect(subject.fizzbuzz(5)).to eq('buzz')
       end
     end
+
+    context 'when n is divisivle by 3 and 5' do
+      it 'should return "fizzbuzz"' do
+        expect(subject.fizzbuzz(15)).to eq('fizzbuzz')
+      end
+    end
   end
 end
