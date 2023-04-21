@@ -28,6 +28,13 @@ RSpec.describe Solver do
         expect { subject.factorial(-1) }.to raise_error(msg)
       end
     end
+  end
 
+  describe '#reverse' do
+    context 'when "hello" is given' do
+      it 'should return "olleh"' do
+        expect(subject.reverse)
+      end
+    end
   end
 end
