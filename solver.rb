@@ -2,9 +2,9 @@ class Solver
   def factorial(num)
     raise StandardError, "Can't calculate factorial of a negative number" if num.negative?
 
-    return 1 if n <= 1
+    return 1 if num <= 1
 
-    n * factorial(n - 1)
+    num * factorial(num - 1)
   end
 
   def reverse(string)

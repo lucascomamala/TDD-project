@@ -15,7 +15,6 @@ RSpec.describe Solver do
       end
     end
 
-
     context 'when 5 is given' do
       it 'should return 120' do
         expect(subject.factorial(5)).to eq(120)
