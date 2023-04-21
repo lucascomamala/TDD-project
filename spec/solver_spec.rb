@@ -22,5 +22,12 @@ RSpec.describe Solver do
       end
     end
 
+    context 'when negative number is given' do
+      msg = "Can't calculate factorial of a negative number"
+      it 'should raise an exception with msg' do
+        expect { subject.factorial(-1) }.to raise_error(msg)
+      end
+    end
+
   end
 end
