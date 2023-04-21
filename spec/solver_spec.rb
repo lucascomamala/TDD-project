@@ -36,5 +36,11 @@ RSpec.describe Solver do
         expect(subject.reverse('hello')).to eq('olleh')
       end
     end
+
+    context 'when "Word" is given' do
+      it 'should return "droW"' do
+        expect(subject.reverse('Word')).to eq('droW')
+      end
+    end
   end
 end
