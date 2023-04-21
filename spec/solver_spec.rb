@@ -62,5 +62,11 @@ RSpec.describe Solver do
         expect(subject.fizzbuzz(15)).to eq('fizzbuzz')
       end
     end
+
+    context 'when n is 7' do
+      it 'should return "7"' do
+        expect(subject.fizzbuzz(7)).to eq('7')
+      end
+    end
   end
 end
