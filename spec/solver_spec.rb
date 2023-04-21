@@ -8,5 +8,12 @@ RSpec.describe Solver do
         expect(subject.factorial(0)).to eq(1)
       end
     end
+
+    context 'when 1 is given' do
+      it 'should return 1' do
+        expect(subject.factorial(1)).to eq(1)
+      end
+    end
+
   end
 end
