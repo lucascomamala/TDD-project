@@ -1,14 +1,14 @@
 class Solver
-  def factorial(n)
-    raise StandardError, "Can't calculate factorial of a negative number" if n < 0
+  def factorial(num)
+    raise StandardError, "Can't calculate factorial of a negative number" if num.negative?
 
     return 1 if n <= 1
 
     n * factorial(n - 1)
   end
 
-  def reverse(s)
-    s.reverse
+  def reverse(string)
+    string.reverse
   end
 
   def fizzbuzz(num)
