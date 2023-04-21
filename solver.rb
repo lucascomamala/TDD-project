@@ -12,6 +12,6 @@ class Solver
   end
 
   def fizzbuzz(num)
-    return 'fizz' if num % 3 == 0
+    return 'fizz' if (num % 3).zero?
   end
 end
