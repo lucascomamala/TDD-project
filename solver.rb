@@ -8,4 +8,7 @@ class Solver
 
     n * factorial(n-1)
   end
+
+  def reverse(s)
+  end
 end

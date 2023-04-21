@@ -33,7 +33,7 @@ RSpec.describe Solver do
   describe '#reverse' do
     context 'when "hello" is given' do
       it 'should return "olleh"' do
-        expect(subject.reverse)
+        expect(subject.reverse('hello'))
       end
     end
   end
