@@ -10,5 +10,6 @@ class Solver
   end
 
   def reverse(s)
+    s.reverse
   end
 end
