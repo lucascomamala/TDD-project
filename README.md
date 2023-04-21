@@ -12,7 +12,6 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
@@ -54,14 +53,6 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
 
 Clone this repository to your desired folder:
@@ -80,14 +71,6 @@ Install this project with:
 ```sh
 $  cd TDD-project
 $  bundle install
-```
-
-### Usage
-
-To run the project, execute the following command:
-
-```sh
-$  ruby main.rb
 ```
 
 ### Run tests
